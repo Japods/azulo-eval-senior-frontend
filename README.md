@@ -139,7 +139,7 @@ Tablet > desktop : la lista de libretas pasa al sidebar con la busqueda y el tí
 
 2. Crear las pantallas descritas arriba tomando en cuenta:
     1. Todas las soluciones deben considerar primero los componentes en Quasar antes que instalar dependencias nuevas, salvo que sean justificables.
-    1. Crear stores comos ean necesario para mantener las distintas partes del estado del app.
+    1. Crear stores como sea necesario para mantener las distintas partes del estado del app.
     1. Crear Unit tests para cada componente creado.
     1. Crear componentes usando interfaces para los props y defaults amigables.
     1. Todas las consultas asincronas a servicios tienen que tener error handling.

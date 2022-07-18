@@ -134,7 +134,7 @@ Tablet > desktop : la lista de libretas pasa al sidebar con la busqueda y el tí
   - [Quasar CLI | Quasar Framework](https://quasar.dev/start/quasar-cli) (Usando Vite por la velocidad del build y de dev, y public está typescript ready)
   - ó [Vuetify 3 Beta](https://next.vuetifyjs.com/en/getting-started/installation/) (Usando Vite por la velocidad del build y de dev) y [Vue CLI](https://cli.vuejs.org/guide/installation.html)
     1. Agregando typescript support.
-    2. Agregando [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components) para evitar tener muchos imports en cada archivo.
+    2. Agregando [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components) para evitar tener muchos imports en cada archivo. (opcional)
     4. El Proyecto debe tener [Pinia](https://quasar.dev/quasar-cli-vite/state-management-with-pinia#introduction).
     5. Incluir el Store en el [Local Storage](https://seb-l.github.io/pinia-plugin-persist/advanced/strategies.html)
 

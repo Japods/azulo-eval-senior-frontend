@@ -151,10 +151,8 @@ Tablet > desktop : la lista de libretas pasa al sidebar con la busqueda y el tí
 ### CMS
 1. La aplicación trae el branding (logo y colores primarios y secunbdarios) desde un CMS, puede incluirse usando algo como (https://directus.io/) la cuenta demo permite iniciar un proyecto.
   - El CMS debe contener: 
-    - Un SVG del logo del App.
+    - Un SVG del logo del App. Puede obtenerlo de [iconify](https://iconify.design/)
     - Los Strings de la applicación
-      - Un nombre de applicación
-      - El nombre de las libretas
-      - el texto las instrucciones del app
-    - el color primario y secundario de la paleta de quasar
+      - Un nombre de applicación, texto de las acciones y botones
+    - (Extra) El color primario y secundario del app, puede uysar la paleta de quasar o de vuetify (debe construirse en tiempo de compilación del servidor)
     - (Extra) la typografía en quasar

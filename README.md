@@ -144,7 +144,7 @@ Tablet > desktop : la lista de libretas pasa al sidebar con la busqueda y el tí
     1. Crear Unit tests para cada componente creado.
     1. Crear componentes usando interfaces para los props y defaults amigables.
     1. Todas las consultas asincronas a servicios tienen que tener error handling.
-    1. **Extra** Los componentes con consultas pueden usar <Suspense>
+    1. **Extra** Los componentes con consultas pueden usar `<Suspense>` API
     1. **Extra** Todas las consultas tienen que hacerse desde un [proxy](https://quasar.dev/quasar-cli-vite/api-proxying#introduction).
     1. **Extra** Incluir history en el storage para poder deshacer cambios en el estado de la applicación.
 

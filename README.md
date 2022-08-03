@@ -143,7 +143,7 @@ Tablet > desktop : la lista de libretas pasa al sidebar con la busqueda y el tí
     1. Todas las soluciones deben considerar primero los componentes en Quasar antes que instalar dependencias nuevas, salvo que sean justificables.
     1. Crear stores como sea necesario para mantener las distintas partes del estado del app.
     1. Crear Unit tests para Los componentes stores o composables que crea pertinente.
-    1. Crear componentes usando interfaces para los props y defaults amigables.
+    1. Crear componentes usando interfaces para los props y defaults amigables ([Typing vue 3](https://vuejs.org/guide/typescript/composition-api.html#typing-component-props)).
     1. Todas las consultas asincronas a servicios tienen que tener *error handling*.
     1. **(Extra** Los componentes con consultas pueden usar `<Suspense>` API
     1. **(Extra)** Todas las consultas tienen que hacerse desde un [proxy](https://quasar.dev/quasar-cli-vite/api-proxying#introduction).

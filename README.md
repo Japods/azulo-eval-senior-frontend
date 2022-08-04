@@ -133,16 +133,16 @@ Tablet > desktop : la lista de libretas pasa al sidebar con la busqueda y el tí
 1. Crear un PWA(Progressive Web) que construya las pantallas de arriba Usando alguno de los dos Component Frameworks:
   - [Quasar CLI | Quasar Framework](https://quasar.dev/start/quasar-cli) (Usando Vite por la velocidad del build y de dev, y public está typescript ready)
   - ó [Vuetify 3 Beta](https://next.vuetifyjs.com/en/getting-started/installation/) (Usando Vite por la velocidad del build y de dev) y [Vue CLI](https://cli.vuejs.org/guide/installation.html)
-    1. Agregando [typescript](https://vuejs.org/guide/typescript/overview.html) support.
-    2. usando `<scipt setup lang="ts">` para todos los componentes.
-    3. El Proyecto debe tener [Pinia](https://quasar.dev/quasar-cli-vite/state-management-with-pinia#introduction).
-    4. Incluir el Store en el [Local Storage](https://seb-l.github.io/pinia-plugin-persist/advanced/strategies.html)
-    5. **(Extra)** Agregando [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components) para evitar tener muchos imports en cada archivo. (opcional)
+    1. Agregando [Typescript Support](https://vuejs.org/guide/typescript/overview.html) support.
+    1. El Proyecto debe tener [Pinia](https://quasar.dev/quasar-cli-vite/state-management-with-pinia#introduction).
+    1. Incluir el Store en el [Local Storage](https://seb-l.github.io/pinia-plugin-persist/advanced/strategies.html)
+    1. **(Extra)** Agregando [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components) para evitar tener muchos imports en cada archivo. (opcional)
 
 2. Crear las pantallas descritas arriba tomando en cuenta:
     1. Todas las soluciones deben considerar primero los componentes en Quasar antes que instalar dependencias nuevas, salvo que sean justificables.
     1. Crear stores como sea necesario para mantener las distintas partes del estado del app.
     1. Crear Unit tests para Los componentes stores o composables que crea pertinente.
+    1. usando `<scipt setup lang="ts">` para todos los componentes.
     1. Crear componentes usando interfaces para los props y defaults amigables ([Typing vue 3](https://vuejs.org/guide/typescript/composition-api.html#typing-component-props)).
     1. Todas las consultas asincronas a servicios tienen que tener *error handling*.
     1. **(Extra** Los componentes con consultas pueden usar `<Suspense>` API
